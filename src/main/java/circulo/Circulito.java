@@ -5,8 +5,8 @@ package circulo;
  * @author profesor
  */
 public class Circulito {
-    private int coordenadaX;
     private int coordenadaY;
+    private int coordenadaX;
     private double radio;
 
     public Circulito() {
