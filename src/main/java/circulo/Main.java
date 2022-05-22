@@ -3,10 +3,18 @@ package circulo;
 import java.text.DecimalFormat;
 
 /**
- * Pruebas de refactorización en NetBeans con la clase Circulito
- * @author profesor
+ * Pruebas de refactorización en NetBeans con la clase
+ * {@link circulo.Circulito Circulito}
+ * @author Vicente López Mariño
+ * @version 1.0
+ * @see circulo.Circulito
  */
 public class Main {
+
+    /**
+     * Método principal de la clase Main
+     * @param args
+     */
     public static void main(String[] args) {
         Circulito circulo = new Circulito(37,43,2.5);
         String salida =
